@@ -15,6 +15,10 @@ h1 span{
     align-items: center;
 }
 
+.navbar-brand_text {
+    margin-bottom: 5px;
+}
+
 .social-icons ul li:last-child{
     padding-right: 20px;
 }
@@ -24,15 +28,23 @@ h1 span{
     padding-right: 0;
 }
 
+#home-slider h1 {
+    margin-top: 0;
+}
+
+.action p {
+    font-size: 14px;
+}
+
 .single-features {
     overflow: hidden;
     padding: 0 0 0 0;
-    margin: 150px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 .single-features:last-child {
     padding: 0 0 0 0;
-    margin: 100px 0 100px 0;
+    margin: 50px 0 50px 0;
 }
 
 .single-features h2{
@@ -59,4 +71,38 @@ h1 span{
 
 .testimonial .media .media-body blockquote:after{
     font-size: 20px;
+}
+
+.carousel-item {
+    border: 1px solid black;
+    background: #EEEEEE;
+    font-size: 23px;
+    padding: 100px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: grab;
+    position: relative;
+    height: 230px;
+    overflow-wrap: break-word;
+}
+
+/* Контейнер с маркерами */
+.owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*!* Сам маркер*/
+/*Здесь body в начале, чтобы заменить стили, которые указаны в самом плагине *!*/
+.owl-carousel button.owl-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: blue;
+    margin: 0 3px;
+}
+
+/*!* Активный маркер *!*/
+.owl-carousel button.owl-dot.active {
+    background: orange;
 }
