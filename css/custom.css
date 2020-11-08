@@ -74,35 +74,34 @@ h1 span{
 }
 
 .carousel-item {
-    border: 1px solid black;
-    background: #EEEEEE;
+    margin-top: 20px;
     font-size: 23px;
-    padding: 100px 20px;
     text-align: center;
     box-sizing: border-box;
     cursor: grab;
     position: relative;
-    height: 230px;
+    height: 650px;
     overflow-wrap: break-word;
 }
 
 /* Контейнер с маркерами */
 .owl-dots {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /*!* Сам маркер*/
 /*Здесь body в начале, чтобы заменить стили, которые указаны в самом плагине *!*/
 .owl-carousel button.owl-dot {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #4fcccd;
     border-radius: 50%;
-    background: blue;
+    background: #ffffff;
     margin: 0 3px;
 }
 
 /*!* Активный маркер *!*/
 .owl-carousel button.owl-dot.active {
-    background: orange;
+    background: #4fcccd;
 }

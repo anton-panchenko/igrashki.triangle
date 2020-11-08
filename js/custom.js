@@ -46,8 +46,8 @@ function ajax(method, url, data, success, error) {
 
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
-        items: 5,
-        dotsEach: 2, // Количество слайдов в одной точке
+        items: 3,
+        dotsEach: 3, // Количество слайдов в одной точке
         // Включаем стандартные кнопки
         // nav: true,
 
@@ -60,7 +60,7 @@ $(document).ready(function(){
         loop: true,
 
         // Отступ
-        margin: 10,
+        margin: 20,
 
         // Автоматическое проигрывание
         // autoplay: true,
