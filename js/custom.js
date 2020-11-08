@@ -46,24 +46,82 @@ function ajax(method, url, data, success, error) {
 
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
-        items: 3,
-        dotsEach: 3, // Количество слайдов в одной точке
-        // Включаем стандартные кнопки
-        // nav: true,
-
-        // Можно еще задать тексты кнопок
-        // navText: [
-        //     '<i class="fas fa-chevron-circle-left"></i> Влево',
-        //     'Вправо <i class="fas fa-chevron-circle-right"></i>'
-        // ],
-        // Показывать слайды покругу
+        items: 4,
+        dotsEach: 3,
         loop: true,
-
-        // Отступ
-        margin: 20,
-
-        // Автоматическое проигрывание
-        // autoplay: true,
-        // autoplayTimeout: 2000
+        margin: 30,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+            500: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            800: {
+                items: 3
+            },
+            1400: {
+                items: 4
+            }
+        }
     });
+
+    let $productsContainer = $('.products-container');
+    let $bizyboardContainer = $('#bizyboardContainer');
+
+    $.each($productsContainer, function () {
+        $(this).hide(100);
+    });
+    $bizyboardContainer.show(500);
+
+    $('#categoryNav li').on('click', function (e) {
+
+        e.preventDefault();
+        let $categoryContainer= $('#categoryContaner');
+        let $title = $('#categoryTitle');
+        let $description = $('#categoryDesctiption');
+
+        $.each($('#categoryNav li'), function () {
+            $(this).removeClass('active');
+            // let $that = $(this);
+            // $.each($productsContainer, function () {
+            //     console.log($(this).attr('id'));
+            //     console.log($that.attr('data-container'));
+            //     if ($(this).attr('id') === $that.attr('data-container')) {
+            //         $(this).show(500);
+            //     } else {
+            //         $(this).hide(100);
+            //     }
+            // });
+        });
+
+        $(this).addClass('active');
+
+        $categoryContainer.slideUp(100);
+        $title.html($(this).attr('data-title'));
+        $description.html($(this).attr('data-description'));
+        $categoryContainer.slideDown(500);
+
+
+
+    });
+
+    // $.each($productsContainer, function () {
+    //     $(this).hide(10);
+    // });
+
+
+
+    // $productsContainer.on('click', function (e) {
+    //
+    //     e.preventDefault();
+    //     $.each($productsContainer, function () {
+    //         $(this).hide(10);
+    //     });
+    //     $(this).show(500);
+    //     console.log(this);
+    // })
+
 });

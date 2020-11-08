@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Contact Us | Triangle</title>
+    <title>Про нас | Розвиваючі іграшки</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet"> 
-    <link href="css/animate.min.css" rel="stylesheet"> 
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.default.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
-	    <script src="js/html5shiv.js"></script>
-	    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/package_toys.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -25,21 +27,18 @@
 </head><!--/head-->
 
 <body>
-	<header id="header">      
+    <header id="header">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 overflow">
-                   <div class="social-icons pull-right">
+                    <div class="social-icons pull-right">
                         <ul class="nav nav-pills">
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/rozvytokVB2/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/rozvytokvb2/"><i class="fa fa-instagram"></i></a></li>
                         </ul>
-                    </div> 
+                    </div>
                 </div>
-             </div>
+            </div>
         </div>
         <div class="navbar navbar-inverse" role="banner">
             <div class="container">
@@ -52,70 +51,34 @@
                     </button>
 
                     <a class="navbar-brand" href="index.html">
-                        <h1><img src="images/logo.png" alt="logo"></h1>
+                        <h1><img src="images/logo.png" alt="logo"><span class="navbar-brand_text">RozvytokVB2</span></h1>
                     </a>
-                    
+
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="dropdown active"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="aboutus.html">About</a></li>
-                                <li><a href="aboutus2.html">About 2</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a class="active" href="contact.html">Contact us</a></li>
-                                <li><a href="contact2.html">Contact us 2</a></li>
-                                <li><a href="404.html">404 error</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                            </ul>
-                        </li>                    
-                        <li class="dropdown"><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="blog.html">Blog Default</a></li>
-                                <li><a href="blogtwo.html">Timeline Blog</a></li>
-                                <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
-                                <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
-                                <li><a href="blogfour.html">Blog Masonary</a></li>
-                                <li><a href="blogdetails.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="portfolio.html">Portfolio <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="portfolio.html">Portfolio Default</a></li>
-                                <li><a href="portfoliofour.html">Isotope 3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfolioone.html">3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfoliotwo.html">3 Columns + Left Sidebar</a></li>
-                                <li><a href="portfoliothree.html">2 Columns</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                            </ul>
-                        </li>                         
-                        <li><a href="shortcodes.html ">Shortcodes</a></li>                    
+                        <li><a href="index.html">Головна</a></li>
+                        <li class="active"><a href="contact.html">Про нас</a></li>
+                        <li><a href="products.html">Наші роботи</a></li>
                     </ul>
-                </div>
-                <div class="search">
-                    <form role="form">
-                        <i class="fa fa-search"></i>
-                        <div class="field-toggle">
-                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
     </header>
-    <!--/#header-->    
+    <!--/#header-->
 
     <section id="page-breadcrumb">
         <div class="vertical-center sun">
              <div class="container">
                 <div class="row">
                     <div class="action">
-                        <div class="col-sm-12">
-                            <h1 class="title">Contact US</h1>
-                            <p>Stay close</p>
-                        </div>                        
+                        <div class="col-sm-12 contact_title">
+                            <h1 class="title">Наші контакти</h1>
+                            <p>Ви можете замовити будь-який товар кількома способами:</p>
+                            <p>- Подзвонити нам за номером <a href=”tel:+380976481647”>+380 97 648 1647</a></p>
+                            <p>- Написати нам на пошту <a href="mailto:vadodovruch@gmail.com">vadodovruch@gmail.com</a></p>
+                            <p>- Заповнити форму в нижній частині сайту і залишити свій номер. Ми Вам обов'язково подзвонимо.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,9 +88,11 @@
 
     <section id="map-section">
         <div class="container">
-            <div id="gmap"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8298.00882970936!2d28.789644113213424!3d51.333259720878594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472987e240b606a7%3A0x9a4d814af7a593ac!2z0LLRg9C70LjRhtGPINCi0LDRgNCw0YHQsCDQkdGD0LvRjNCx0Lgt0JHQvtGA0L7QstGG0Y8sINCe0LLRgNGD0YcsINCW0LjRgtC-0LzQuNGA0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDExMTAx!5e0!3m2!1sru!2sua!4v1604855834968!5m2!1sru!2sua"
+                    width="1150" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
         </div>
-    </section> <!--/#map-section-->        
+    </section> <!--/#map-section-->
 
     <footer id="footer">
         <div class="container">
@@ -137,67 +102,67 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="testimonial bottom">
-                        <h2>Testimonial</h2>
+                        <h2>Відгуки про нас</h2>
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="images/home/profile1.png" alt=""></a>
+                                <a href="#"><img src="images/home/testimonial1.png" alt=""></a>
                             </div>
                             <div class="media-body">
-                                <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
-                                <h3><a href="#">- Jhon Kalis</a></h3>
+                                <blockquote>Робота виконана якісно) доставка, розрахунок - все, як вигідно клієнту) Рекомендую!</blockquote>
+                                <h3><a href="#">- Лідія Івченко</a></h3>
                             </div>
-                         </div>
+                        </div>
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="images/home/profile2.png" alt=""></a>
+                                <a href="#"><img src="images/home/testimonial2.jpg" alt=""></a>
                             </div>
                             <div class="media-body">
-                                <blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>
-                                <h3><a href="">- Abraham Josef</a></h3>
+                                <blockquote>Низькі ціни. Якісно виготовлено. Відповідально до покупця.</blockquote>
+                                <h3><a href="">- Роман Донік</a></h3>
                             </div>
-                        </div>   
-                    </div> 
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="contact-info bottom">
-                        <h2>Contacts</h2>
+                        <h2>Наші контакти</h2>
                         <address>
-                        E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br> 
-                        Phone: +1 (123) 456 7890 <br> 
-                        Fax: +1 (123) 456 7891 <br> 
+                            E-mail: <a href="mailto:vadodovruch@gmail.com">vadodovruch@gmail.com</a> <br>
+                            Тел: <a href=”tel:+380976481647”>+380 97 648 1647</a> <br>
                         </address>
 
-                        <h2>Address</h2>
+                        <h2>Наша адреса</h2>
                         <address>
-                        Unit C2, St.Vincent's Trading Est., <br> 
-                        Feeder Road, <br> 
-                        Bristol, BS2 0UY <br> 
-                        United Kingdom <br> 
+                            Адреса, <br>
+                            Адреса, <br>
+                            Житомирська область, <br>
+                            Україна <br>
                         </address>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <div class="contact-form bottom">
-                        <h2>Send a message</h2>
-                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                        <h2>Напишіть нам!</h2>
+                        <form id="my-form" action="https://formspree.io/f/mwkwoddz" method="POST">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
+                                <input type="text" name="name" class="form-control" placeholder="Ваше ім'я">
                             </div>
                             <div class="form-group">
-                                <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
+                                <input type="email" name="_replyto" class="form-control" placeholder="Ваш Email">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
-                            </div>                        
-                            <div class="form-group">
-                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                                <textarea name="message" class="form-control" rows="4" placeholder="Повідомлення"></textarea>
                             </div>
+                            <div class="form-group">
+                                <input type="submit" id="my-form-button" class="btn btn-submit" value="Надіслати">
+                            </div>
+                            <p id="my-form-status"></p>
                         </form>
                     </div>
                 </div>
                 <div class="col-sm-12">
                     <div class="copyright-text text-center">
-                        <p>&copy; Your Company 2014. All Rights Reserved.</p>
+                        <p>&copy; RozvytokVB2 2020. All Rights Reserved.</p>
                         <p>Designed by <a target="_blank" href="http://www.themeum.com">Themeum</a></p>
                     </div>
                 </div>
@@ -206,12 +171,12 @@
     </footer>
     <!--/#footer-->
 
-
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script type="text/javascript" src="js/gmaps.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>   
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>
