@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5424225b-a980-4411-9d85-573594b5fb71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/bizyboard/1/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/products/bizyboard/1/main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/bizyboard/1/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/bizyboard/1/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/product_template/116098469_139228284468807_8833851309401844089_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/product_template/121582314_166781575046811_7337085419991231206_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/product_template/121615126_166781605046808_7741298503645276160_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/product_template/121666289_166781635046805_987187430698640506_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/product_template/product-details.html" beforeDir="false" />
-    </list>
+    <list default="true" id="5424225b-a980-4411-9d85-573594b5fb71" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +61,7 @@
       <workItem from="1603526414203" duration="3788000" />
       <workItem from="1603664148375" duration="3445000" />
       <workItem from="1604775963213" duration="28019000" />
-      <workItem from="1606574712091" duration="9780000" />
+      <workItem from="1606574712091" duration="10110000" />
     </task>
     <servers />
   </component>
