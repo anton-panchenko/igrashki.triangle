@@ -68,13 +68,13 @@ $(document).ready(function(){
         }
     });
 
-    let $productsContainer = $('.products-container');
+    let $productsContainers = $('.products-container');
     let $bizyboardContainer = $('#bizyboardContainer');
 
-    $.each($productsContainer, function () {
-        $(this).hide(100);
+    $.each($productsContainers, function () {
+        $(this).hide(0);
     });
-    $bizyboardContainer.show(500);
+    $bizyboardContainer.show(100);
 
     $('#categoryNav li').on('click', function (e) {
 
@@ -83,18 +83,19 @@ $(document).ready(function(){
         let $title = $('#categoryTitle');
         let $description = $('#categoryDesctiption');
 
+        $.each($productsContainers, function () {
+            $(this).hide(100);
+        });
+
+        let $that = $(this);
+        $.each($productsContainers, function () {
+            if ($(this).attr('id') === $that.attr('data-container')) {
+                $(this).show(100);
+            }
+        });
+
         $.each($('#categoryNav li'), function () {
             $(this).removeClass('active');
-            // let $that = $(this);
-            // $.each($productsContainer, function () {
-            //     console.log($(this).attr('id'));
-            //     console.log($that.attr('data-container'));
-            //     if ($(this).attr('id') === $that.attr('data-container')) {
-            //         $(this).show(500);
-            //     } else {
-            //         $(this).hide(100);
-            //     }
-            // });
         });
 
         $(this).addClass('active');
@@ -102,26 +103,8 @@ $(document).ready(function(){
         $categoryContainer.slideUp(100);
         $title.html($(this).attr('data-title'));
         $description.html($(this).attr('data-description'));
-        $categoryContainer.slideDown(500);
-
-
+        $categoryContainer.slideDown(100);
 
     });
-
-    // $.each($productsContainer, function () {
-    //     $(this).hide(10);
-    // });
-
-
-
-    // $productsContainer.on('click', function (e) {
-    //
-    //     e.preventDefault();
-    //     $.each($productsContainer, function () {
-    //         $(this).hide(10);
-    //     });
-    //     $(this).show(500);
-    //     console.log(this);
-    // })
 
 });
