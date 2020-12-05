@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5424225b-a980-4411-9d85-573594b5fb71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/bizyboard/1/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/bizyboard/1/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/bizyboard/2/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/bizyboard/2/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/bizyboard/3/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/bizyboard/3/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/bizyboard/4/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/bizyboard/4/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/bizyboard/5/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/bizyboard/5/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/bizyboard/6/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/bizyboard/6/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/desk/1/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/desk/1/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/puzl/1/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/puzl/1/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/sandbox/1/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/sandbox/1/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/stand/1/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/stand/1/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/toy/1/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/toy/1/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/toy/2/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/toy/2/product.html" afterDir="false" />
-    </list>
+    <list default="true" id="5424225b-a980-4411-9d85-573594b5fb71" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +62,7 @@
       <workItem from="1603664148375" duration="3445000" />
       <workItem from="1604775963213" duration="28019000" />
       <workItem from="1606574712091" duration="10263000" />
-      <workItem from="1607189749035" duration="5396000" />
+      <workItem from="1607189749035" duration="5722000" />
     </task>
     <servers />
   </component>
