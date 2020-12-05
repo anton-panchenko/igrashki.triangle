@@ -106,48 +106,6 @@ h1 span{
     background: #4fcccd;
 }
 
-/*.owl-carousel-product .carousel-item {*/
-/*    border: 1px solid darkred;*/
-/*    height: 500px;*/
-/*    margin-top: 20px;*/
-/*    font-size: 23px;*/
-/*    text-align: center;*/
-/*    box-sizing: border-box;*/
-/*    cursor: grab;*/
-/*    position: relative;*/
-/*    overflow-wrap: break-word;*/
-/*}*/
-
-/*.owl-carousel-product img {*/
-    /*display: block;*/
-/*    width: 300px;*/
-/*    height: 500px;*/
-/*}*/
-
-/*.owl-carousel-product button.owl-dot {*/
-/*    width: 10px;*/
-/*    height: 10px;*/
-/*    border: 1px solid #4fcccd;*/
-/*    border-radius: 50%;*/
-/*    background: #ffffff;*/
-/*    margin: 0 3px;*/
-/*}*/
-
-/*!* Сам маркер*/
-/*Здесь body в начале, чтобы заменить стили, которые указаны в самом плагине *!*/
-/*.owl-carousel-product button.owl-dot {*/
-/*    width: 10px;*/
-/*    height: 10px;*/
-/*    border: 1px solid #4fcccd;*/
-/*    border-radius: 50%;*/
-/*    background: #ffffff;*/
-/*    margin: 0 3px;*/
-/*}*/
-
-/*!* Активный маркер *!*/
-/*.owl-carousel-product button.owl-dot.active {*/
-/*    background: #4fcccd;*/
-/*}*/
 
 #categoryDesctiption strong {
     font-weight: 400;

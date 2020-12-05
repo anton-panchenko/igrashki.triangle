@@ -53,13 +53,13 @@ $(document).ready(function(){
         autoplay: true,
         autoplayTimeout: 3000,
         responsive: {
-            500: {
+            100: {
                 items: 1
             },
-            600: {
+            500: {
                 items: 2
             },
-            800: {
+            700: {
                 items: 3
             },
             1400: {
